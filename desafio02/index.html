@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Icons CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+
+    <!-- Script -->
+    <script src="js/app.js"></script>
+
+    <!-- Customized CSS -->
+    <link rel="stylesheet" href="style/style.css">
+
+
+    <!-- Título da Página -->
+    <title>ME ACHA!</title>
+</head>
+
+<body>
+
+    <header>
+    <div>
+        <h1>
+            ME ACHA!
+        </h1>
+        <h3>
+            ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP
+        </h3>
+    </div>
+        <span class="material-icons icon-azul">travel_explore</span>
+    </header>
+
+    <main>
+        <form method="GET" action="#">
+            <label for="cep">Cep:</label>
+            <input type="text" class="form-control" id="cep" value="">
+
+            <label for="rua">Rua:</label>
+            <input type="text" class="form-control" id="rua" disabled>
+
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" class="form-control" disabled>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" class="form-control" disabled>
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" class="form-control" disabled>
+
+            <input type="submit" class="form-control azul" value="Buscar" onclick="pesquisarCEP(self.cep.value)">
+        </form>
+    </main>
+
+</body>
+
+</html>

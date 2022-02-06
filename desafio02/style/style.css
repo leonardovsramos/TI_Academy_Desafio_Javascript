@@ -1,0 +1,98 @@
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 64px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+  
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font:16px Verdana, Tahoma, sans-serif;
+}
+
+
+header {
+    min-height: 200px;
+    background-image: linear-gradient(to right, #3D5AFE, #2196F3);
+    text-align: center;
+}
+
+header > span {
+    position: relative;
+    top: 50%;
+    height: 64px;
+    width: 64px;
+    background-color: #FFF;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+header > div {
+    position: relative;
+    top: 25%;
+    color: #FFF;
+}
+
+main {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.form-control {
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    box-sizing: border-box;
+    color: #FFF;
+}
+
+.azul {
+    background-color: #2196F3;
+    border-radius: 10px;
+    border: 2px solid #2196F3;
+    box-shadow: 0 2px #3D5AFE;
+    padding: 5px 0;
+}
+
+.icon-azul {
+    color: #2196F3;
+}
+
+input[type="text"] {
+    color: #000;
+}
